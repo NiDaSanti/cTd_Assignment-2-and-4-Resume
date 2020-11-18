@@ -46,10 +46,9 @@ p {
   
 .imgdiv {
     display: block;
-    width: 10%;
     margin-left: auto;
     margin-right: auto;
-    padding: 10px;
+    height: 10px;
 }
   
 .blocks {
