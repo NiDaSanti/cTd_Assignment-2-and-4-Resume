@@ -1,16 +1,12 @@
-h1 {
-    text-align: center;
-    font-size: 20px;
-}
-
 p {
     text-align: left;
     font-size: 7px;
 }
 
-.class {
-    float: relative;
-    border: solid 4px black;
+#name {
+    text-align: center;
+    font-size: 20px;
+    text-decoration: underline;
 }
 
 .stats {
@@ -41,12 +37,12 @@ p {
     line-height: 22px; 
 }
   
-.imgdiv {
+.me {
     display: block;
-    width: 35%;
     margin-left: auto;
     margin-right: auto;
-    padding: 10px;
+    width: 15%;
+    border: solid 1px green;
 }
   
 .blocks {
