@@ -16,21 +16,6 @@ p {
     font-size: 7px;
 }
 
-<<<<<<< HEAD
-=======
-#name {
-    text-align: center;
-    font-size: 30px;
-    text-decoration: underline;
-    padding: 15px;
-}
-
-#role {
-    text-align: center;
-    font-size: 1.3em;
-    margin-bottom: 10px;
-}
->>>>>>> 40596422cd571e1ebe89609218e9ec7775223716
 .stats {
     text-decoration: underline;
 }
@@ -42,11 +27,7 @@ p {
 
 body {
     align-items: auto;
-<<<<<<< HEAD
 }
-=======
-  }
->>>>>>> 40596422cd571e1ebe89609218e9ec7775223716
   
 h1 {
     text-align: center;
@@ -63,10 +44,9 @@ p {
     line-height: 22px; 
 }
   
-<<<<<<< HEAD
 .imgdiv {
     display: block;
-    width: 35%;
+    width: 10%;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
@@ -80,19 +60,6 @@ p {
     margin-right: auto;
     margin-bottom: 100px;
     padding: 20px;
-=======
-.me {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 15%;
-    border: solid 1px green;
-}
-  
-.blocks {
-    float: left;
-    width: 50%;
->>>>>>> 40596422cd571e1ebe89609218e9ec7775223716
 }
   
 footer {
