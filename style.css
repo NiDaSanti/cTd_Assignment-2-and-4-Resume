@@ -6,6 +6,7 @@ p {
 #name {
     text-align: center;
     font-size: 20px;
+    text-decoration: underline;
 }
 
 .stats {
@@ -36,15 +37,12 @@ p {
     line-height: 22px; 
 }
   
-#img {
+.me {
     display: block;
-    width: 35%;
-    text-align: center;
-    /* margin-left: auto;
-    margin-right: auto; */
-    padding: 10px;
-    float: none;
-    border: solid 4px black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    border: solid 1px green;
 }
   
 .blocks {
