@@ -8,26 +8,25 @@ h2 {
     font-size: 15px;
 }
 
-/* p {
-    text-align: left;
-    font-size: 7px;
-} */
-
 footer {
     text-align-last: center;
     clear: both;
 }
 
 .stats {
-    display: inline-block;
-    text-decoration: underline;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    flex: 1 200px;
+    flex-direction: column;
     line-height: 22px; 
 }
 
 .blocks {
-    display: flex;
-    width: 70%;
-    border: solid 2px goldenrod;
+    /* display: flex; */
+    flex: 2 20px;
+    width: 90%;
+    border: solid 2px black;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 100px;
@@ -50,6 +49,30 @@ footer {
     justify-content: center;
     margin: auto;
     width: 250px;
-    border: solid 2px green;
+    border: solid 2px black;
     padding: 4px;
+}
+
+#res-item1 {
+    /* border: solid 1px black; */
+    margin: 2px;
+    /* padding: 2px; */
+}
+
+#res-item2 {
+    /* border: solid 1px black; */
+    margin: 2px;
+    /* padding: 2px; */
+}
+
+#res-item3 {
+    /* border: solid 1px black; */
+    margin: 2px;
+    /* padding: 2px; */
+}
+
+#res-item4 {
+    /* border: solid 1px black; */
+    margin: 2px;
+    /* padding: 2px; */
 }
