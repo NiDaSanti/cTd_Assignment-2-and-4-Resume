@@ -1,45 +1,53 @@
 body {
-    background-color: #353562;
+    background-color: #6D5E52;
     font-family: 'Roboto', sans-serif;
 }
 
 h1 {
     text-align: center;
     font-size: 20px;
-    background-color: #575773;
+    background-color: #68350A;
 }
 
 h2 {
     text-align: center;
     font-size: 15px;
-    background-color: #71719A;
+    background-color: #654932;
 }
 
 footer {
     text-align-last: center;
-    text-decoration-color: #222253;
+    text-decoration-color: #AAA7A4;
     clear: both;
-    background-color: #4D4D7E;
+    background-color: #AAA7A4;
 }
 
 .stats {
     display: flex;
-    align-items: center;
+    justify-content: center;
     list-style-type: none;
-    flex: 1 200px;
-    flex-direction: column;
+    flex: 1 20;
     line-height: 22px; 
-    background-color: #808085;
+    background-color: #898078;
 }
 
 .blocks {
-    /* display: flex; */
-    flex: 2 20px;
+    display: inline;
+    float: left;
     width: 90%;
-    border: solid 2px #040461;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 100px;
+    border: solid 2px #654932;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.blocks1 {
+    display: inline;
+    float: right;
+    width: 90%;
+    border: solid 2px #654932;
+    margin: auto;
+    margin-bottom: 20px;
     padding: 20px;
 }
 
@@ -50,7 +58,7 @@ footer {
     margin: 0;
     padding: 0;
     color: black;
-    background-color: rgb(113, 113, 154);
+    background-color: #898078;
     opacity: 80%;
 }
 
@@ -59,30 +67,33 @@ footer {
     justify-content: center;
     margin: auto;
     width: 250px;
-    border: solid 2px #575773;
+    border: solid 2px #68350A;
     padding: 4px;
 }
 
 #res-item1 {
     /* border: solid 1px black; */
-    margin: 2px;
+    margin: 12px;
     /* padding: 2px; */
 }
 
 #res-item2 {
     /* border: solid 1px black; */
-    margin: 2px;
+    margin: 12px;
     /* padding: 2px; */
 }
 
 #res-item3 {
     /* border: solid 1px black; */
-    margin: 2px;
+    margin: 12px;
+    /* flex: 4 200;
+    border: double 1px #898078; */
+    /* align-items: center; */
     /* padding: 2px; */
 }
 
 #res-item4 {
     /* border: solid 1px black; */
-    margin: 2px;
+    margin: 12px;
     /* padding: 2px; */
 }
