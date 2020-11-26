@@ -1,16 +1,25 @@
+body {
+    background-color: #353562;
+    font-family: 'Roboto', sans-serif;
+}
+
 h1 {
     text-align: center;
     font-size: 20px;
+    background-color: #575773;
 }
 
 h2 {
     text-align: center;
     font-size: 15px;
+    background-color: #71719A;
 }
 
 footer {
     text-align-last: center;
+    text-decoration-color: #222253;
     clear: both;
+    background-color: #4D4D7E;
 }
 
 .stats {
@@ -20,13 +29,14 @@ footer {
     flex: 1 200px;
     flex-direction: column;
     line-height: 22px; 
+    background-color: #808085;
 }
 
 .blocks {
     /* display: flex; */
     flex: 2 20px;
     width: 90%;
-    border: solid 2px black;
+    border: solid 2px #040461;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 100px;
@@ -39,8 +49,8 @@ footer {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    text-color: black;
-    background-color: rgb(129, 119, 119);
+    color: black;
+    background-color: rgb(113, 113, 154);
     opacity: 80%;
 }
 
@@ -49,7 +59,7 @@ footer {
     justify-content: center;
     margin: auto;
     width: 250px;
-    border: solid 2px black;
+    border: solid 2px #575773;
     padding: 4px;
 }
 
