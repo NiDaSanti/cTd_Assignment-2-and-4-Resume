@@ -17,12 +17,13 @@ h2 {
     background-color: #654932;
 }
 
-p {
+/* p {
     padding-top: 2em;
-    padding-bottom:2em;
+    padding-bottom: 2em;
     padding-right: 1em;
     padding-left: 1em;
-}
+    margin: 0;
+} */
 
 footer {
     text-align-last: center;
@@ -33,6 +34,7 @@ footer {
 .row {
     flex: 1;
     flex-wrap: wrap;
+    margin: auto;
 }
 
 .col {
@@ -117,8 +119,8 @@ footer {
     #main-header, 
     #nav,
     .row,
-    .blocks,
-    .blocks1,
+    /* .blocks,
+    .blocks1, */
     .stats,
     .col {
         display: flex;
@@ -147,8 +149,8 @@ footer {
         max-width: 1300px;
     }
     
-    .blocks,
+    /* .blocks,
     .blocks1 {
         flex: 1;
-    }
+    } */
 }
