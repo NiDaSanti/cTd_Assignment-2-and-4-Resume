@@ -6,7 +6,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-image: linear-gradient(#654932,#6D5E52,#AAA7A4);
+  background-image: repeating-linear-gradient(#654932,#6D5E52,#AAA7A4);
   background-color: #6D5E52;
   font-family: 'Roboto', sans-serif;
   margin: 0;
