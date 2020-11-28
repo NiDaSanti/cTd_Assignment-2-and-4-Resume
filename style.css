@@ -43,6 +43,10 @@ footer {
     flex: 1 1 250px;
 }
 
+.embed {
+    align-self: center;
+}
+
 .stats {
     margin: 10px;
     padding: 15px;
@@ -66,7 +70,7 @@ footer {
     font-size: 20px;
     background-color: #68350A;
     margin-left: 1.5em;
-    padding: 10;
+    padding: 10px;
     opacity: 80%;
 
 }
