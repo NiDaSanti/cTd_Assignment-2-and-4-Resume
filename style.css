@@ -6,7 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-image: linear-gradient(#654932,#6D5E52,#AAA7A4);
+    background-image: repeating-linear-gradient(#654932,#6D5E52,#AAA7A4);
     background-color: #6D5E52;
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -17,14 +17,6 @@ h2 {
     font-size: 15px;
     background-color: #654932;
 }
-
-/* p {
-    padding-top: 2em;
-    padding-bottom: 2em;
-    padding-right: 1em;
-    padding-left: 1em;
-    margin: 0;
-} */
 
 footer {
     text-align-last: center;
@@ -69,6 +61,7 @@ footer {
     text-align: center;
     font-size: 20px;
     background-color: #68350A;
+    border: solid 1px #361a03;
     margin-left: 1.5em;
     padding: 10px;
     opacity: 80%;
@@ -110,14 +103,7 @@ footer {
     width: 250px;
     border: solid 2px #68350A;
     padding: 4px;
-}
-
-#res-item1,
-#res-item2,
-#res-item3,
-#res-item4 {
-    align-self: center;
-    padding: 2.5em;
+    border-radius: 45em;
 }
 
 @media (min-width: 100px) {
@@ -127,7 +113,8 @@ footer {
     /* .blocks,
     .blocks1, */
     .stats,
-    .col {
+    .col,
+    .embed {
         display: flex;
     }
 
@@ -152,6 +139,11 @@ footer {
         justify-content: space-between;
         width: 100%;
         max-width: 1300px;
+    }
+
+    #img:hover {
+        opacity: 90%;
+        width: 20%;
     }
 }
 
