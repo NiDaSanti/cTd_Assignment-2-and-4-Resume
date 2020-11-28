@@ -17,7 +17,7 @@ function setup() {
   // create your canvas and define size here it's set to 500 x 500px you can also set any static shapes that won't need to be drawn here.
   createCanvas(500, 500);
 }
-
+setup();
 // Const Functions
 function twoTrees() {
   for (var t = 15; t < 500; t += 74) {
@@ -84,4 +84,11 @@ function moon() {
 //Draw Function
 function draw() {
   background(29, 40, 115); //background
+}
 
+draw();
+moon();
+ufo();
+star();
+twoTrees();
+// 
