@@ -54,6 +54,7 @@ footer {
     padding: 0;
     color: black;
     background-color: #898078;
+    border-radius: 2%;
     opacity: 80%;
 }
 
@@ -62,6 +63,7 @@ footer {
     font-size: 20px;
     background-color: #68350A;
     border: solid 1px #361a03;
+    border-radius: 90%;
     margin-left: 1.5em;
     padding: 10px;
     opacity: 80%;
