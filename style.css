@@ -1,6 +1,10 @@
+/*used global box-sizing to include all divs*/
+
 * {
     box-sizing: border-box;
 }
+
+/*set flex specifications for body of html document to make all children flex items and set font*/
 
 body {
     display: flex;
@@ -12,11 +16,15 @@ body {
     margin: 0;
 }
 
+/*set title bar specifications for headings*/
+
 h2 {
     text-align: center;
     font-size: 15px;
     background-color: #654932;
 }
+
+/*set footer alignment and color*/
 
 footer {
     text-align-last: center;
@@ -24,20 +32,28 @@ footer {
     background-color: #AAA7A4;
 }
 
+/*flex specifications for .row divs*/
+
 .row {
     flex: 1;
     flex-wrap: wrap;
     margin: auto;
 }
 
+/*flex specifications for .col divs*/
+
 .col {
     flex-direction: column;
     flex: 1 1 250px;
 }
 
+/*alignment for spotify playlist div*/
+
 .embed {
     align-self: center;
 }
+
+/*settings for list items in two text entry divs*/
 
 .stats {
     margin: 10px;
@@ -47,6 +63,8 @@ footer {
     border: double 2px #654932;
     background-color: #898078;
 }
+
+/*main header includes nav and logo objects*/
 
 #main-header {
     list-style-type: none;
@@ -58,6 +76,8 @@ footer {
     opacity: 80%;
 }
 
+/*div for logo on left side of nav bar*/
+
 #logo {
     text-align: center;
     font-size: 20px;
@@ -67,8 +87,9 @@ footer {
     margin-left: 1.5em;
     padding: 10px;
     opacity: 80%;
-
 }
+
+/*nav bar div*/
 
 #nav {
     list-style-type: none;
@@ -79,6 +100,8 @@ footer {
     opacity: 80%;
 }
 
+/*css rules for styling nav items*/
+
 #logo,
 #nav a {
     text-align: center;
@@ -86,16 +109,22 @@ footer {
     padding: 10px 15px;
 }
 
+/*nav bar links*/
+
 #nav a {
     font-size: .95em;
     color: black;
     text-transform: uppercase;
 }
 
+/*changes color of links upon hover*/
+
 #nav a:hover,
 .stats a:hover {
 	color: #093a58;
 }
+
+/*css properties for main image*/
 
 #img {
     display: flex;
@@ -108,12 +137,12 @@ footer {
     border-radius: 45em;
 }
 
+/*special instructtions for smaller screens*/
+
 @media (min-width: 100px) {
     #main-header, 
     #nav,
     .row,
-    /* .blocks,
-    .blocks1, */
     .stats,
     .col,
     .embed {
@@ -134,6 +163,8 @@ footer {
 
 }
 
+/*instructions for medium to large screens*/
+
 @media (min-width: 825px) {
     
     #main-header {
@@ -143,6 +174,8 @@ footer {
         max-width: 1300px;
     }
 
+    /*slightly enlarges picture upon hover*/
+    
     #img:hover {
         opacity: 90%;
         width: 20%;
