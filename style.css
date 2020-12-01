@@ -1,61 +1,184 @@
-p {
-    text-align: left;
-    font-size: 7px;
+/*used global box-sizing to include all divs*/
+
+* {
+    box-sizing: border-box;
 }
 
-#name {
-    text-align: center;
-    font-size: 20px;
-    text-decoration: underline;
-}
-
-.stats {
-    text-decoration: underline;
-}
-
-.portrait {
-    border: solid 2px green;
-    padding: 4px;
-}
+/*set flex specifications for body of html document to make all children flex items and set font*/
 
 body {
-    align-items: auto;
-  }
-  
-h1 {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: repeating-linear-gradient(#654932,#6D5E52,#AAA7A4);
+    background-color: #6D5E52;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+/*set title bar specifications for headings*/
+
+h2 {
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
+    background-color: #654932;
 }
-  
-p {
-    text-align: left;
-    font-size: 7px;
-}
-  
-.stats {
-    text-decoration: underline;
-    line-height: 22px; 
-}
-  
-.me {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 15%;
-    border: solid 1px green;
-}
-  
-.blocks {
-    display: table-cell;
-    width: 40%;
-    border: solid 1px grey;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 100px;
-    padding: 20px;
-}
-  
+
+/*set footer alignment and color*/
+
 footer {
     text-align-last: center;
-    clear: both;
+    text-decoration-color: #AAA7A4;
+    background-color: #AAA7A4;
 }
+
+/*flex specifications for .row divs*/
+
+.row {
+    flex: 1;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+/*flex specifications for .col divs*/
+
+.col {
+    flex-direction: column;
+    flex: 1 1 250px;
+}
+
+/*alignment for spotify playlist div*/
+
+.embed {
+    align-self: center;
+}
+
+/*settings for list items in two text entry divs*/
+
+.stats {
+    margin: 10px;
+    padding: 15px;
+    list-style-type: none;
+    flex: 1 5 200px;
+    border: double 2px #654932;
+    background-color: #898078;
+}
+
+/*main header includes nav and logo objects*/
+
+#main-header {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: black;
+    background-color: #898078;
+    border-radius: 2%;
+    opacity: 80%;
+}
+
+/*div for logo on left side of nav bar*/
+
+#logo {
+    text-align: center;
+    font-size: 20px;
+    background-color: #68350A;
+    border: solid 1px #361a03;
+    border-radius: 90%;
+    margin-left: 1.5em;
+    padding: 10px;
+    opacity: 80%;
+}
+
+/*nav bar div*/
+
+#nav {
+    list-style-type: none;
+    margin-right: 1.5em;
+    padding: 10;
+    color: black;
+    background-color: #898078;
+    opacity: 80%;
+}
+
+/*css rules for styling nav items*/
+
+#logo,
+#nav a {
+    text-align: center;
+    display: block;
+    padding: 10px 15px;
+}
+
+/*nav bar links*/
+
+#nav a {
+    font-size: .95em;
+    color: black;
+    text-transform: uppercase;
+}
+
+/*changes color of links upon hover*/
+
+#nav a:hover,
+.stats a:hover {
+	color: #093a58;
+}
+
+/*css properties for main image*/
+
+#img {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10px;
+    width: 250px;
+    border: solid 2px #68350A;
+    padding: 4px;
+    border-radius: 45em;
+}
+
+/*special instructtions for smaller screens*/
+
+@media (min-width: 100px) {
+    #main-header, 
+    #nav,
+    .row,
+    .stats,
+    .col,
+    .embed {
+        display: flex;
+    }
+
+    #main-header {
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #nav {
+        align-items: center;
+        
+    }
+
+}
+
+/*instructions for medium to large screens*/
+
+@media (min-width: 825px) {
+    
+    #main-header {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 1300px;
+    }
+
+    /*slightly enlarges picture upon hover*/
+    
+    #img:hover {
+        opacity: 90%;
+        width: 20%;
+    }
+}
+
